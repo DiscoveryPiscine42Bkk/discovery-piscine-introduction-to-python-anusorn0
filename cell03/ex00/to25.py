@@ -1,7 +1,7 @@
-number = float(input("Enter a number: "))
-
-if number > 25:
+value = int(input())
+if value >= 26:
     print("Error")
 else:
-    for i in range(int(number), 26):
-        print(i)
+    for num in range(value, 26):
+     print(f"Inside the loop, my variable is {num}")
+     25
