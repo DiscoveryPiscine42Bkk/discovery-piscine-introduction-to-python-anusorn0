@@ -1,13 +1,5 @@
-user_input = input("Please enter a number: ")
-try:
-    number = float(user_input)
-    if number.is_integer():
-        print(f"The number {int(number)} is an integer.")
-    elif '.' in user_input:
-        print(f"The number {user_input} is a decimal.")
-    else:
-        (f"The number {user_input} is not a decimal.")
-    
-except ValueError:
-    print("That's not a valid number.")
-    
+num = float(input("Give me a number: "))
+if int(num) == num:
+    print("This number is an integer")
+else:
+    print("This number is a decimal")

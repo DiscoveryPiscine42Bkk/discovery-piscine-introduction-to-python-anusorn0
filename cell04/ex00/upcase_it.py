@@ -1,2 +1,3 @@
 word = input("Please enter a word: ")
-print(word.upper())
+upper_word = word.upper()
+print(upper_word)

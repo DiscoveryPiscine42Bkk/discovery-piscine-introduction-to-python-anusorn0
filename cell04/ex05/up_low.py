@@ -1,4 +1,2 @@
-user_input = input("Please enter a string: ")
-
-swapped_string = user_input.swapcase()
-print(f"The string with swapped case is: {swapped_string}")
+str_input = input()
+print(str_input.swapcase())#สลับ เล็ก>>ใหญ่ ใหญ่>>เล็ก
